@@ -1,0 +1,260 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+/* font-family: 'Lato', sans-serif; dark */
+.navbar{
+    background-color: #191a21;
+    display: flex;
+    border: 2px solid;
+    width: 100%;
+    height: 7vh;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+}
+
+.left-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7%;
+    height: 49px;
+    float: left;
+}
+
+.home-left-logo{
+    width: 40px;
+height: 40px;
+border-radius: 50px;
+}
+
+.center-nav-home{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 21px;
+}
+.nav-ul-home{
+    display: flex;
+   
+}
+.nav-ul-home li{
+    list-style: none;
+}
+.nav-ul-home li a{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    margin: 0px 20px;
+    text-decoration: none;
+}
+.nav-ul-home li a:hover{
+    color: #bbadad;
+}
+.right-nav-home{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    flex-direction: row;
+    width: 50%;
+}
+.searchButton{
+    font-family: 'Lato', sans-serif; 
+    margin-right: 8px;
+    height: 29px;
+    width: 186px;
+    text-align: center;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}
+
+.login{
+    font-family: 'Open Sans', sans-serif;
+    margin-right: 7px;
+    width: 91px;
+    height: 33px;
+    font-weight: bold;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+.logout{
+    font-family: 'Open Sans', sans-serif;
+    margin-right: 37px;
+    height: 33px;
+    width: 91px;
+    font-weight: bold;
+    color: white;
+    border: 2px solid white;
+    background-color: transparent;
+}
+
+.logout:hover{
+    color: #b89999;
+border: 2px solid;
+    cursor: pointer;
+}
+.login:hover{
+    color: #bbadad;
+    border: 2px solid;
+
+    cursor: pointer;
+}
+
+.main-body{
+    margin-bottom: 54px;
+    height: 52%;
+    background-color: #e0cfcf;
+}
+
+.header{
+    height: 100vh;
+    width: 98.9vw;
+}
+
+.heading{
+    height: 26%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 49px;
+}
+
+.typing-Effect{
+    position: relative;
+color: #f70909;
+}
+    .typing-Effect::after {
+        content: '';
+        position: absolute;
+        right: -5px;
+        height: 101%;
+        width: 1px;
+        border-right: 2px solid;
+        animation: blink 0.5s infinite;
+    }
+
+
+@keyframes blink {
+    0%{
+        opacity: 0;
+    }100%{
+        opacity: 1;
+    }
+}
+
+.About-some{
+    font-family: 'Lato', sans-serif;
+    height: 47%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.About-some h1{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 29px;
+}
+.About-some p{
+    text-shadow: 1px 0px #6f5151;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 21px;
+    width: 70%;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 14px;
+    color: #6f5151;
+}
+
+.all-Socials{
+    height: 26%;
+}
+
+.logo-socials{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.logo-socials li{
+    width: 35px;
+    display: flex;
+    height: 35px;
+    border: 2px solid;
+    margin: 0px 12px;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+.logo-socials li:nth-child(1){
+    background-color: yellow;
+}
+
+.logo-socials li:nth-child(2){
+    background-color: red;
+}
+
+.logo-socials li:nth-child(3){
+    background-color: green;
+}
+
+.logo-socials li:nth-child(4){
+    background-color: orange;
+}
+
+.logo-socials li:nth-child(5){
+    background-color: blue;
+}
+.logo-socials li a{
+    color: black;
+    font-size: 25px;
+}
+  .carousel-cell {
+    width: 66%;
+    height: 200px;
+    margin-right: 10px;
+    background: #8C8;
+    border-radius: 5px;
+  }
+  .carousel-cell{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .carousel-cell h1{
+      font-family: 'Lato', sans-serif;
+  }
+  .carousel-cell p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+      width: 90%;
+      text-align: center;
+    }
+    .line{
+        width: 33px;
+        height: 4px;
+        background-color: white;
+        margin: 4px 4px;
+    }
+    
+    .hamBuger{
+        display: none;
+    }
+
+    .footer {
+        height: 40px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer p{
+        color: white;
+    }
